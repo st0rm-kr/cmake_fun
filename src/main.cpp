@@ -1,5 +1,9 @@
-#include <iostream>
+#include "hello.h"
+#include "world.h"
 
 int main() {
-  std::cout << "Hello CMake!\n";
+  hello();
+  std::cout << " ";
+  world();
+  std::cout << "\n";
 }
