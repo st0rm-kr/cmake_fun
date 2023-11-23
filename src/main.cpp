@@ -1,5 +1,5 @@
-#include "hello.h"
-#include "world.h"
+#include "hello.hpp"
+#include "world.hpp"
 #include "add.cpp"
 
 int main() {
