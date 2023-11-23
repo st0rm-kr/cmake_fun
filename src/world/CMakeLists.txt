@@ -1,1 +1,1 @@
-add_library(world STATIC world.h world.cpp)
+add_library(world SHARED world.h world.cpp)
