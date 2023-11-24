@@ -8,7 +8,7 @@ include_directories(world)
 include_directories(math)
 
 add_executable(main main.cpp)
-target_link_libraries(main hello world)
+target_link_libraries(main hello world math)
 
 set(TEST_FILE add_test.cpp)
 add_executable(MY_TEST ${TEST_FILE})
