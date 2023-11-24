@@ -1,6 +1,6 @@
 #include "hello.hpp"
 #include "world.hpp"
-#include "add.cpp"
+#include "add.hpp"
 
 int main() {
   hello();

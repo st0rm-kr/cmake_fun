@@ -1,1 +1,0 @@
-add_library(math STATIC add.cpp)

@@ -8,10 +8,10 @@ include_directories(world)
 include_directories(math)
 
 add_executable(main main.cpp)
-target_link_libraries(main hello world math)
+target_link_libraries(main hello world)
 
 set(TEST_FILE add_test.cpp)
 add_executable(MY_TEST ${TEST_FILE})
-target_link_libraries(MY_TEST gtest_main math)
+target_link_libraries(MY_TEST gtest_main)
 
 enable_testing()
